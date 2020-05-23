@@ -1,0 +1,41 @@
+
+.app-container {
+    height: 50%;
+    width: 100%;
+    float: left;
+
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1em;
+    margin: 1em;
+}
+
+
+.btn {
+     background-color: darkgreen; 
+     height: 25px;
+     border-radius: 50%;
+        border: none; 
+        color: white; 
+        cursor: pointer; 
+  }
+  
+  
+  .btn:hover {
+    background-color: lightgreen;
+  }
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3px;
+    font-family: cursive;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,12 @@
+.item {
+    display: inline-block;
+    overflow-wrap: anywhere;
+    border-radius: 5px 5px 12px 5px;
+    min-height: 100px;
+    width: 140px;
+    box-shadow: 2px 2px 6px 2px darkgrey;
+    padding: 1px;
+    margin: 1px;
+    background-color:#c1d4f6;
+    text-align: center;
+}
